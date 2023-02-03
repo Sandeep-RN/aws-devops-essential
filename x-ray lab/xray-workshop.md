@@ -32,7 +32,7 @@ public class Startup implements ServletContextListener {
 }
 ```
 
-Add in your WEB-INF/web.xml
+Add in your WEB-INF/web.xml 
 
 ```
 <listener>
@@ -45,7 +45,7 @@ Add in your WEB-INF/web.xml
 
 4. <a href="https://docs.aws.amazon.com/xray/latest/devguide/xray-services-beanstalk.html">Enable X-Ray daemon</a> in the AWS Elastic Beanstalk environment.
 
-5. Deploy your Tomcat application to AWS Elastic Beanstalk
+5. Deploy your Tomcat application to AWS Elastic Beanstalk.
 
 ### X-Ray latency histogram
 ![GitHub Logo](img/xraylatencyhistogram.png)
